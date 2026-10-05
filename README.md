@@ -9,7 +9,7 @@ The feet are given by an explicit `perpFoot p u v` (characterised by `perpFoot_m
 `inner_perpFoot`), concyclicity by Mathlib's `EuclideanGeometry.Cospherical`. The key step is the
 identity `area2(feet) · D₁D₂D₃ = area2(a,b,c)² · concyc a b c p`, proved by `field_simp; ring`.
 
-**Status:** all statements proved, with no `sorry`. `gate.sh` checks 9 named declarations.
+**Status:** all statements proved, with no `sorry`. `gate.sh` checks 12 named declarations.
 
 ## Main statements
 
@@ -38,7 +38,7 @@ The gate fails if any of the following is true:
 - a named declaration is missing, or has an extra report;
 - a named declaration depends on anything other than `propext`, `Classical.choice` and `Quot.sound`.
 
-Output: `PASS (9 declarations, standard axioms only)`. Some of these are definitions, which may
+Output: `PASS (12 declarations, standard axioms only)`. Some of these are definitions, which may
 use a subset of the three axioms.
 
 `tests/tamper.sh` plants six kinds of fake proof in scratch copies (in `Simson/Main.lean`) and checks
