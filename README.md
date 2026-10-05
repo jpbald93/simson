@@ -102,7 +102,7 @@ Desargues, Monge, Simson, Napoleon and Lami in Lean 4* (J. Bald, draft, 2026).
   title        = {The Wallace--Simson theorem in Lean 4},
   year         = {2026},
   howpublished = {\url{https://github.com/jpbald93/simson}},
-  note         = {Lean 4 + Mathlib v4.33.1. Commit: [TODO]}
+  note         = {Lean 4 + Mathlib v4.33.1. Commit: 24df4281394197bef38e6df02b5fab8e4cff3d22}
 }
 ```
 
