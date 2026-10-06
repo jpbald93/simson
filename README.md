@@ -94,7 +94,7 @@ responsible for the result. The Lean kernel checks every proof.
 ## Citation
 
 This repository accompanies the paper *Classical plane geometry by coordinate certificates:
-Desargues, Monge, Simson, Napoleon and Lami in Lean 4* (J. Bald, draft, 2026).
+Desargues, Monge, Simson, Napoleon and Lami in Lean 4* (J. Bald, 2026).
 
 ```bibtex
 @misc{bald2026simson,
@@ -102,7 +102,7 @@ Desargues, Monge, Simson, Napoleon and Lami in Lean 4* (J. Bald, draft, 2026).
   title        = {The Wallace--Simson theorem in Lean 4},
   year         = {2026},
   howpublished = {\url{https://github.com/jpbald93/simson}},
-  note         = {Lean 4 + Mathlib v4.33.1. Commit: 24df4281394197bef38e6df02b5fab8e4cff3d22}
+  note         = {Lean 4 + Mathlib v4.33.1. Commit: 7c239b31600575db241b45dda4930cf9486e7d17}
 }
 ```
 
