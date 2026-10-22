@@ -19,7 +19,7 @@ export PATH="$HOME/.elan/bin:$PATH"
 cd "$(dirname "$0")" || exit 1
 NS="Simson"
 LIB="Simson"
-REQUIRED="Simson.area2 Simson.area2_perpFoot_eq_zero_iff Simson.area2_perpFoot_mul Simson.concyc Simson.concyc_eq_zero_iff_cospherical Simson.footParam_eq_inner Simson.inner_perpFoot Simson.perpFoot Simson.perpFoot_eq_orthogonalProjection Simson.perpFoot_mem_line Simson.simson Simson.simson_area"
+REQUIRED="Simson.area2 Simson.area2_perpFoot_eq_zero_iff Simson.area2_perpFoot_mul Simson.concyc Simson.concyc_eq_zero_iff_cospherical Simson.footParam_eq_inner Simson.inner_perpFoot Simson.perpFoot Simson.perpFoot_eq_orthogonalProjection Simson.perpFoot_mem_line Simson.simson Simson.simson_area Simson.l14_simson Simson.l14b_foot Simson.l14_simson_feet Simson.l14b_norm_eq Simson.l14b_not_collinear Simson.l14w_simson Simson.Classical.cov_A3_a Simson.Classical.cov_A3_b Simson.Classical.area2_eq_zero_of_collinear"
 SOURCES="Simson/*.lean Simson.lean"
 # Never fetch: the pinned Mathlib checkout must already be present.
 [ -e .lake/packages/mathlib ] || { echo "FAIL: Mathlib packages missing (run setup by hand)"; exit 1; }
